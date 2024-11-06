@@ -1,6 +1,6 @@
 import express from "express";
 import { connection } from "./postgres/postgres.js";
-import router from "./views/routes.js";
+import router from "./src/views/routes.js";
 
 const app=express();
 
