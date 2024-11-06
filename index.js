@@ -4,7 +4,7 @@ import router from "./src/views/routes.js";
 
 const app=express();
 
-app.use(router)
+app.use('/api',router)
 
 
 
